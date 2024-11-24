@@ -10,9 +10,9 @@ then
 	echo "Installing Java has failed. No java version found"
 elif [ "$java_version" == "1." ]
 then
-	echo An old version of Java installation found
+	echo "An old version of Java installation found"
 elif [ "$java_version" -ge 11 ]
 then
-	echo Java version 11 or greater installed successfully
+	echo "Java version 11 or greater installed successfully"
 fi
 
